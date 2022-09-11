@@ -1,0 +1,94 @@
+@media screen and (max-width : 922px) {
+    .hero-tagline p {
+        font-size: 16px;
+    }
+    .hero-tagline h1 {
+        line-height: 52px;
+        font-size: 30px;
+        margin-top: 120;
+    }
+
+    .img-hero {
+        width: 55%;
+        height: auto;
+    }
+
+    .card-layanan {
+        margin: 15px 0;
+    }
+    .circle-icon {
+        width: 80px;
+        height: 90px;
+        background-color: #fff;
+        border-radius: 50%;
+        transition: all .1
+    }
+    .card-layanan h3 {
+        font-size: 20px 0;
+    }
+
+    .card-layanan p {
+        font-size: 10px 0;
+    }
+
+    .card-harga {
+        margin: 15px 0;
+    }
+}
+
+@media screen and (max-width : 576px) {
+    .hero-tagline p {
+        font-size: 12px;
+    }
+    .hero-tagline h1 {
+        line-height: 52px;
+        margin-top: 80px;
+        font-size: 20px;
+    }
+
+    .img-hero {
+        width: 75%;
+        height: auto;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .sub-title {
+        font-size: 12px;
+    }
+
+    .card-layanan {
+        margin: 15px 0;
+    }
+
+    .card-harga {
+        margin: 15px 0;
+    }
+
+    #search h2 {
+        font-size: 42px;
+        line-height: 52px;
+    }
+
+    #search p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .input-cari .button-primary {
+        width: 50%;
+        height: 60px;
+        border-radius: 0 0 0 5px;
+    }
+
+    .input-cari .form-control {
+        height: 60px !important;
+    }
+
+}
+
+@media screen and (max-width : 350px) {
+
+}
