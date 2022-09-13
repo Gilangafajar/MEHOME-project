@@ -12,7 +12,7 @@ body {
 /* Navbar color */
 
 .nav-color {
-    background: #6984a9;
+    background: #435163;
     transition: all ease-in-out 0.4s;
 }
 
@@ -62,17 +62,17 @@ width: 100%;
     font-size: 50;
     letter-spacing: 3%;
     line-height: 148%;
-    margin-bottom: 30px;
-    margin-top: 250px;
+    margin-bottom: 20px;
+    margin-top: 260px;
 }
 
 .hero-tagline p{
     font-size: 20px;
     color: #E9DCDC;
-    margin-bottom: 105px ;
+    margin-bottom: 40px ;
 }
 
-.button-lg-secondary {
+.btn button-fitur {
     width: 200px;
     height: 70px;
     font-size: 18px;
@@ -284,7 +284,7 @@ h2 {
 }
 
 .input-cari .button-primary {
-    height: 50px;
+    height: 75px;
     background-color:  rgba(255, 255, 255, 0.8);
     color: #101010;
     border: none;
@@ -323,7 +323,7 @@ h2 {
     background-color: #468CF5;
     border: none;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 500;   
     color: #E9DCDC;
 }
 
@@ -383,8 +383,120 @@ h2 {
     border: none;
     border-radius: 50%;
     width: 61px;
-    height: 61px;
+    height:61px;
     background-color: #468CF5;
     padding: 0;
+    align-items: center;
 }
 /* Our Work End */
+
+/* contact */
+#contact {
+    background-image: url(asset/kontak-img.png);
+    margin-top: 158px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contact .overlay {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#contact .container {
+    padding: 148px 0 148px 0;
+}
+
+#contact h3 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #E9DCDC;
+}
+
+.kontak h6 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #a2b9d8;
+    margin: 19px 0 14px 0;
+}
+
+.kontak a {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #E9DCDC;
+    text-decoration: none;
+    margin-left: 18px;
+    width: 332px;
+    display: inline-block;
+}
+
+.linkMEHOME {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #E9DCDC;
+    text-decoration: none;
+}
+
+.card-contact {
+    width: 100%;
+    height: 445px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 52px 48px;
+}
+
+.card-contact h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #101010;
+    margin-bottom: 21px;
+}
+
+.form-control {
+    background: #E9DCDC ;
+    height: 75px !important;
+}
+
+.button-contact {
+    width: 100%;
+    height: 75px;
+    background: #468CF5;
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #E9DCDC;
+}
+
+footer {
+    width: 100%;
+    height: 270px;background: #101010;
+}
+
+.copyright {
+    bottom: 1%;
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+footer a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
