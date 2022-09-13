@@ -5,11 +5,22 @@
     .hero-tagline h1 {
         line-height: 52px;
         font-size: 30px;
-        margin-top: 120;
+        margin-top: 100px;
+    }
+
+    .hero-tagline p {
+        margin-bottom: 40px;
+    }
+
+    .btn button-fitur {
+        margin-top: 10px;
+        width: 50%;
+        height: 30px;
+        border-radius: 0 0 0 5px;
     }
 
     .img-hero {
-        width: 55%;
+        width: 80%;
         height: auto;
     }
 
@@ -17,7 +28,7 @@
         margin: 15px 0;
     }
     .circle-icon {
-        width: 80px;
+        width: 100px;
         height: 90px;
         background-color: #fff;
         border-radius: 50%;
@@ -28,17 +39,61 @@
     }
 
     .card-layanan p {
-        font-size: 10px 0;
+        font-size: 8px;
     }
 
     .card-harga {
         margin: 15px 0;
+    }
+
+    .button-fitur {
+        width: 100%;
+    }
+
+    #contact h3 {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .card-contact {
+        width: 100%;
+        height: auto;
+        margin-top: 42px;
+    }
+    
+    .card-contact h2 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 42px;
+        text-align: center;
+        color: #101010;
+        margin-bottom: 21px;
+    }
+    .copyright {
+        bottom: 1%;
+        color: #fff;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 8px;
+        line-height: 21px;
+    }
+    
+    footer a {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 30px;
+        color: #fff;
+        text-decoration: none;
     }
 }
 
 @media screen and (max-width : 576px) {
     .hero-tagline p {
         font-size: 12px;
+        margin-top: 10px;
+        margin-bottom: 30px;
     }
     .hero-tagline h1 {
         line-height: 52px;
@@ -49,6 +104,13 @@
     .img-hero {
         width: 75%;
         height: auto;
+    }
+    .btn button-fitur {
+        margin-top: 20px;
+        margin: 10px;
+        width: 30%;
+        height: 30px;
+        border-radius: 0 0 0 5px;
     }
 
     h2 {
@@ -78,17 +140,84 @@
     }
 
     .input-cari .button-primary {
-        width: 50%;
+        width: 30%;
         height: 60px;
-        border-radius: 0 0 0 5px;
+        font-size: 12;
     }
 
     .input-cari .form-control {
         height: 60px !important;
+        font-size: 12px;
+    }
+    .copyright {
+        bottom: 1%;
+        color: #fff;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 8px;
+        line-height: 21px;
+    }
+    
+    footer a {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 30px;
+        color: #fff;
+        text-decoration: none;
     }
 
 }
 
-@media screen and (max-width : 350px) {
+@media screen and (max-width : 375px) {
+    .hero-tagline p {
+        font-size: 10px;
+    }
+    .hero-tagline h1 {
+        line-height: 52px;
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    .hero-tagline p {
+        margin-bottom: 40px;
+    }
+
+    .btn button-fitur {
+        margin-top: 10px;
+        size-adjust: 10px;
+    }
+
+    .img-hero {
+        width: 100%;
+        height: auto;
+    }
+    .input-cari .button-primary {
+        width: 50%;
+        height: 30px;
+        border-radius: 0 0 0 5px;
+    }
+
+    .input-cari .form-control {
+        height: 30px !important;
+    }
+
+    .copyright {
+        bottom: 1%;
+        color: #fff;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 8px;
+        line-height: 21px;
+    }
+    
+    footer a {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 30px;
+        color: #fff;
+        text-decoration: none;
+    }
 
 }
